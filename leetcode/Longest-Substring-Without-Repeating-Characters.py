@@ -16,4 +16,4 @@ class Solution(object):
             max_length = max(max_length, right - left + 1)  # Update max length
 
         return max_length
-        
+         
