@@ -18,4 +18,4 @@ class Solution(object):
                 backtrack(s + \)\, open_count, close_count + 1)
 
         backtrack(\\, 0, 0)
-        return result   
+        return result    
