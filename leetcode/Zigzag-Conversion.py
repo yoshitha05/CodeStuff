@@ -19,4 +19,4 @@ class Solution(object):
                 step = -1
             index += step
 
-        return "".join(rows)
+        return "".join(rows) 
