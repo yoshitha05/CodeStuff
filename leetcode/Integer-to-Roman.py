@@ -13,7 +13,7 @@ class Solution(object):
         roman_str = ""
 
         for value, symbol in roman_map:
-            while num >= value:
+            while num >= value: 
                 roman_str += symbol
                 num -= value
         
