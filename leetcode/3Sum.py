@@ -27,4 +27,4 @@ class Solution(object):
                 else:
                     right -= 1  # Move right pointer to decrease sum
         
-        return res
+        return res 
