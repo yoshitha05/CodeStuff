@@ -26,4 +26,3 @@ class Solution(object):
                     return total  # Exact match, return immediately
         
         return closest_sum
-        
