@@ -26,5 +26,5 @@ class Solution(object):
         
         # Remove the nth node
         second.next = second.next.next
-        
+         
         return dummy.next
