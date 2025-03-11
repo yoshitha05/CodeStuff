@@ -13,7 +13,7 @@ class Solution(object):
         if not head or k == 1:
             return head
         
-        # Step 1: Count k nodes
+        # Step 1: Count k nodes 
         count, temp = 0, head
         while temp and count < k:
             temp = temp.next
