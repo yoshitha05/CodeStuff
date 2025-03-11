@@ -28,4 +28,4 @@ class Solution(object):
                 path.pop()  # Un-choose (backtrack)
         
         backtrack(0, [])  # Start backtracking from index 0
-        return result
+        return result 
