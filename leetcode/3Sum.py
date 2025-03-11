@@ -1,7 +1,7 @@
 class Solution(object):
     def threeSum(self, nums):
         \\\
-        :type nums: List[int]
+        :type nums: List[int] 
         :rtype: List[List[int]]
         \\\
         nums.sort()  # Step 1: Sort the array
