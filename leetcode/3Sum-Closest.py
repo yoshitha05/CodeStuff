@@ -8,7 +8,7 @@ class Solution(object):
         nums.sort()  # Step 1: Sort the array
         closest_sum = float('inf')  # Initialize with a large number
         
-        for i in range(len(nums) - 2):  # Fix one element
+        for i in range(len(nums) - 2):  # Fix one element 
             left, right = i + 1, len(nums) - 1  # Two pointers
             
             while left < right:
