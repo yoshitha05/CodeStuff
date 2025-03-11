@@ -8,7 +8,7 @@ class Solution(object):
         if not s or not words:
             return []
 
-        word_len = len(words[0])
+        word_len = len(words[0]) 
         num_words = len(words)
         total_len = word_len * num_words
         word_count = Counter(words)
