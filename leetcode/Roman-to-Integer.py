@@ -21,4 +21,4 @@ class Solution(object):
             
             prev_value = current_value  # Update previous value
         
-        return total 
+        return total  
