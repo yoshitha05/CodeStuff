@@ -23,5 +23,5 @@ class Solution(object):
 
             dividend -= temp  # Subtract the biggest chunk possible
             quotient += multiple  # Add corresponding multiple to quotient
-
+ 
         return sign * quotient 
