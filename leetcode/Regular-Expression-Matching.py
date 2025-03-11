@@ -7,7 +7,7 @@ class Solution(object):
         """
         m, n = len(s), len(p)
         dp = [[False] * (n + 1) for _ in range(m + 1)]
-        dp[0][0] = True  # Empty string matches empty pattern
+        dp[0][0] = True  # Empty string matches empty pattern 
 
         # Handle patterns like "a*", ".*", "a*b*", etc.
         for j in range(2, n + 1):
