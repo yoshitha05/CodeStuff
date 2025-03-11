@@ -14,4 +14,4 @@ class Solution(object):
         while i < len(first) and i < len(last) and first[i] == last[i]:
             i += 1
         
-        return first[:i]
+        return first[:i] 
