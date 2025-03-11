@@ -17,7 +17,7 @@ class Solution(object):
             index += 1
 
         result = 0
-        while index < len(s) and s[index].isdigit():
+        while index < len(s) and s[index].isdigit(): 
             result = result * 10 + int(s[index])
             index += 1
 
