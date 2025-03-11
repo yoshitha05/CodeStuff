@@ -9,7 +9,7 @@ class Solution(object):
             return s
 
         rows = [""] * numRows
-        index, step = 0, 1
+        index, step = 0, 1 
 
         for char in s:
             rows[index] += char
