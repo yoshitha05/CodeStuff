@@ -35,5 +35,5 @@ class Solution(object):
                         left += 1  # Move left pointer to increase sum
                     else:
                         right -= 1  # Move right pointer to decrease sum
-        
+         
         return result
