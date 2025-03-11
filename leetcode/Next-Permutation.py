@@ -20,4 +20,4 @@ class Solution(object):
             nums[i], nums[j] = nums[j], nums[i]
         
         # Step 3: Reverse the sequence to the right of i
-        nums[i + 1:] = reversed(nums[i + 1:])
+        nums[i + 1:] = reversed(nums[i + 1:]) 
