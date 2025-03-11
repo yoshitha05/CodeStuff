@@ -24,4 +24,4 @@ class Solution(object):
                     if p[j - 2] == s[i - 1] or p[j - 2] == ".":
                         dp[i][j] = dp[i][j] or dp[i - 1][j]  # One or more occurrences
 
-        return dp[m][n]
+        return dp[m][n] 
