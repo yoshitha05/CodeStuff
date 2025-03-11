@@ -16,3 +16,4 @@ class Solution(object):
         # A number is a palindrome if the original number (or the truncated half)
         # matches the reversed half
         return x == reversed_half or x == reversed_half // 10
+    
