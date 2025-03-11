@@ -15,3 +15,4 @@ class Solution(object):
             i += 1
         
         return first[:i] 
+ 
