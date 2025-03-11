@@ -6,7 +6,7 @@ class Solution(object):
         :rtype: List[List[int]]
         \\\
         nums.sort()  # Step 1: Sort the array
-        n = len(nums)
+        n = len(nums) 
         result = []
 
         for i in range(n - 3):
