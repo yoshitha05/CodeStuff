@@ -9,5 +9,5 @@ class Solution(object):
         for j in range(len(nums)):  # Fast pointer to scan elements
             if nums[j] != val:
                 nums[i] = nums[j]  # Place the non-val element at index i
-                i += 1  # Move the slow pointer forward
+                i += 1  # Move the slow pointer forward 
         return i  # New length of modified array
