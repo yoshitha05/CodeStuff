@@ -17,4 +17,4 @@ class Solution(object):
                 else:
                     max_length = max(max_length, i - stack[-1])  # Compute max length
         
-        return max_length
+        return max_length 
