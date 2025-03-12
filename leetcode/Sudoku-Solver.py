@@ -10,7 +10,7 @@ class Solution(object):
         empty_cells = []
 
         # Pre-fill the sets and track empty cells
-        for r in range(9):
+        for r in range(9): 
             for c in range(9):
                 if board[r][c] == '.':
                     empty_cells.append((r, c))
