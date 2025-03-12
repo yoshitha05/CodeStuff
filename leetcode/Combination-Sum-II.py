@@ -25,4 +25,4 @@ class Solution(object):
                 prev = candidates[i]  # Mark this element to skip in the next loop iteration
 
         backtrack(0, [], 0)
-        return res
+        return res 
