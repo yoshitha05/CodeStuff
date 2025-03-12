@@ -14,4 +14,4 @@ class Solution(object):
                 left = mid + 1
             else:
                 right = mid - 1
-        return left  # Insertion index
+        return left  # Insertion index 
