@@ -7,7 +7,7 @@ class Solution(object):
         \\\
         res = []
 
-        def backtrack(start, path, total):
+        def backtrack(start, path, total): 
             if total == target:
                 res.append(list(path))
                 return
