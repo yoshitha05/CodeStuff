@@ -17,4 +17,4 @@ class Solution(object):
                 return i + 1
         
         # If all numbers are in place, return the next number
-        return n + 1
+        return n + 1 
