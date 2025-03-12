@@ -21,6 +21,6 @@ class Solution(object):
         
         s = \1\
         for _ in range(n - 1):
-            s = get_next(s)
+            s = get_next(s) 
         
         return s
