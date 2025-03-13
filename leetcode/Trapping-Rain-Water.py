@@ -24,5 +24,5 @@ class Solution(object):
                 else:
                     right_max = height[right]
                 right -= 1
-        
+         
         return water_trapped
