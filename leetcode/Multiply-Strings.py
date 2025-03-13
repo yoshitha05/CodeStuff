@@ -22,4 +22,4 @@ class Solution(object):
 
         # Convert result array to string, removing leading zeros
         result = \\.join(map(str, res)).lstrip(\0\)
-        return result if result else \0\
+        return result if result else \0\ 
